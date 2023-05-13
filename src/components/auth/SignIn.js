@@ -15,6 +15,7 @@ function SignIn() {
             )
             .then((authUser) => {
                 console.log(authUser);
+                alert("Account created successfully");
             })
             .catch((error) => {
                 if (error.code === "auth/email-already-in-use") {

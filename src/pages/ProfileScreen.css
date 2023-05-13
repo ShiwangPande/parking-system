@@ -1,0 +1,118 @@
+.profileScreen {
+  height: 100vh;
+  color: white;
+  position: relative;
+  height: 100%;
+  background: url("../assets/img/booking.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.profileScreen__body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  max-width: 800px;
+}
+.profileScreen__info {
+  display: flex;
+}
+.profileScreen__details {
+  color: white;
+  margin-left: 25px;
+  flex: 1;
+}
+.profileScreen__body > h1 {
+  font-size: 60px;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+.profileScreen__details > h2 {
+  background-color: rgba(35, 35, 35, 0.373);
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.profileScreen__signOut {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  color: #fff;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+
+.profileScreen__info > img {
+  height: 100px;
+}
+.profileScreen__plans > h3 {
+  border-bottom: 1px solid #282c2d;
+  padding-bottom: 20px;
+  padding-top: 11px;
+}
+.profileScreen__planName {
+  font-size: 16px;
+}
+.icon {
+  padding: 7px;
+  width: 50px;
+
+  cursor: pointer;
+}
+@supports (display: flex) {
+  @media only screen and (max-width: 1100px) {
+    article {
+      display: flex;
+    }
+    .profileScreen__info {
+      display: flex;
+      flex-direction: column;
+    }
+    .profileScreen__body > h1 {
+      font-size: 39px;
+      font-weight: 400;
+      border-bottom: 1px solid #282c2d;
+      margin-bottom: 20px;
+    }
+    .profileScreen__info > img {
+      height: 130px;
+      width: 100px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 53%;
+      padding-bottom: 25px;
+    }
+    .profileScreen__details > h2 {
+      background-color: gray;
+      padding: 15px;
+      font-size: 14px;
+      padding-left: 12px;
+    }
+    .profileScreen__body {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 15%;
+      max-width: 800px;
+    }
+    .profileScreen__plans > h3 {
+      border-bottom-color: rgb(126, 117, 103);
+      padding: 15px;
+      display: flex;
+      flex-direction: row;
+    }
+    .profileScreen__planName {
+      font-size: 15px;
+      font-weight: 400;
+      padding-left: 15%;
+    }
+  }
+}

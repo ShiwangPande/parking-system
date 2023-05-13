@@ -76,7 +76,7 @@ function Booking() {
                 </div>
                 <div>
                     {/* PRicing List */}
-                    <div className="bg-black/20 lg:w-[28vw]  shadow overflow-hidden backdrop-blur-[1px] sm:rounded-lg">
+                    <div className="bg-black/20 lg:w-[28vw] md:w-[80vw] mt-5  shadow overflow-hidden backdrop-blur-[1px] sm:rounded-lg">
                         <div className="px-4 py-5 sm:px-6">
                             <h3 className="text-2xl text-center leading-6 font-medium text-white ">
                                 Pricing
